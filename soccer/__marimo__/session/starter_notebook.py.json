@@ -1,0 +1,107 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.1",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f1ab4803c60ee908f8c0e3366c54bf87",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "de8a0fddf2999c8284d966ec04108ef7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"soccer-starter-shots-and-goals-from-real-event-data\">Soccer starter: shots and goals from real event data</h1>\n<span class=\"paragraph\"><strong>Data:</strong> <a href=\"https://github.com/statsbomb/open-data\" rel=\"noopener noreferrer\" target=\"_blank\">StatsBomb Open Data</a> - free event data for learning and teaching. Credit StatsBomb when you use it.</span>\n<span class=\"paragraph\">Event data records <em>every action in a match</em> - who did what, where, and what happened next. Here we load the <strong>2018 FIFA World Cup final</strong> and count shots and goals by player.</span>\n<span class=\"paragraph\">Want the full guided soccer lesson? Start with our flagship: <a href=\"https://github.com/nhssaa/xg-for-beginners\" rel=\"noopener noreferrer\" target=\"_blank\">xg-for-beginners</a>.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "69d53e0808f9e1c29bf0581832f72170",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='2e8a3a1d-cfb7-11ea-2f52-fb3a26d13eb6'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;competition_id&#92;&quot;:9,&#92;&quot;season_id&#92;&quot;:281,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;1. Bundesliga&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2023/2024&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:9,&#92;&quot;season_id&#92;&quot;:27,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;1. Bundesliga&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2015/2016&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:1267,&#92;&quot;season_id&#92;&quot;:107,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;African Cup of Nations&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2023&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:4,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2018/2019&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:1,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2017/2018&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:2,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2016/2017&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:27,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2015/2016&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:26,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2014/2015&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:25,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2013/2014&#92;&quot;},{&#92;&quot;competition_id&#92;&quot;:16,&#92;&quot;season_id&#92;&quot;:24,&#92;&quot;competition_name&#92;&quot;:&#92;&quot;Champions League&#92;&quot;,&#92;&quot;season_name&#92;&quot;:&#92;&quot;2012/2013&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;competition_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;season_id&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;competition_name&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;season_name&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "dc6fe6b5cb11914805d9c22083e23095",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">StatsBomb currently lists <strong>80 free competition-seasons</strong>. Below we load the last match of the 2018 World Cup - the final - straight from the files above.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "0ac02b3acca37fe7aa21cabcb14bb5bf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "France vs Croatia: 2978 events\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "e73e6150393e42a9a130b475af000979",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='9cbc6fc5-1f53-d9d1-1782-14a89e354160'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;player&#92;&quot;:&#92;&quot;Antoine Griezmann&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:1},{&#92;&quot;player&#92;&quot;:&#92;&quot;Ivan Peri&#92;&#92;u0161i&#92;&#92;u0107&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:1},{&#92;&quot;player&#92;&quot;:&#92;&quot;Kylian Mbapp&#92;&#92;u00e9 Lottin&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:1},{&#92;&quot;player&#92;&quot;:&#92;&quot;Paul Pogba&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:1},{&#92;&quot;player&#92;&quot;:&#92;&quot;Mario Mand&#92;&#92;u017euki&#92;&#92;u0107&#92;&quot;,&#92;&quot;shots&#92;&quot;:1,&#92;&quot;goals&#92;&quot;:1},{&#92;&quot;player&#92;&quot;:&#92;&quot;Ante Rebi&#92;&#92;u0107&#92;&quot;,&#92;&quot;shots&#92;&quot;:3,&#92;&quot;goals&#92;&quot;:0},{&#92;&quot;player&#92;&quot;:&#92;&quot;Ivan Rakiti&#92;&#92;u0107&#92;&quot;,&#92;&quot;shots&#92;&quot;:3,&#92;&quot;goals&#92;&quot;:0},{&#92;&quot;player&#92;&quot;:&#92;&quot;Dejan Lovren&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:0},{&#92;&quot;player&#92;&quot;:&#92;&quot;Domagoj Vida&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:0},{&#92;&quot;player&#92;&quot;:&#92;&quot;&#92;&#92;u0160ime Vrsaljko&#92;&quot;,&#92;&quot;shots&#92;&quot;:2,&#92;&quot;goals&#92;&quot;:0}]&quot;' data-total-rows='12' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;shots&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;goals&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;player&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "c52f3711d3618b6b88fc1b4b436b9267",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Who had the best <strong>conversion rate</strong> (goals / shots)? Add a column and sort by it.</li>\n<li>Loop over <em>every</em> match in the competition and build a golden-boot table for the whole World Cup.</li>\n<li>Each shot has a <code>location</code> - draw a shot map. The <a href=\"https://github.com/nhssaa/xg-for-beginners\" rel=\"noopener noreferrer\" target=\"_blank\">xg-for-beginners</a> lesson shows how, then teaches you to turn shots into expected goals.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
