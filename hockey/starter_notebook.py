@@ -22,6 +22,8 @@ def _(mo):
         **Data:** the NHL's public web API (`api-web.nhle.com`) - live standings, no key needed. Credit the NHL when you use it.
 
         Standings give every team's points and goal differential. A first modeling question: **how much of winning is just out-scoring opponents?**
+
+        **Where you have seen this:** sites like MoneyPuck publish live win probability for every NHL game, built from exactly this kind of data.
         """
     )
     return
@@ -71,6 +73,8 @@ def _(mo, nhl):
         - Who are this season's **overachievers** - points well above what their goals predict? Do they win tight games or lose blowouts?
         - Go deeper with [MoneyPuck's free team data](http://moneypuck.com/data.htm): shots, expected goals, and more.
         - Is home-ice advantage real? The API also serves every game's score.
+
+        **What good looks like:** you can explain your chart in one plain sentence, and name one thing it does *not* tell you.
         """
     )
     return

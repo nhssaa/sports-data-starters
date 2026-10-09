@@ -20,12 +20,12 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "be743d3f0bf60e9e2054b23aee4c20f7",
+      "code_hash": "af21f4b885ebe1fb1cd111c4d963255b",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"baseball-starter-pythagorean-expectation\">Baseball starter: Pythagorean expectation</h1>\n<span class=\"paragraph\"><strong>Data:</strong> the <a href=\"https://www.seanlahman.com/baseball-archive/statistics/\" rel=\"noopener noreferrer\" target=\"_blank\">Lahman Baseball Database</a> (Sean Lahman), mirrored as CSV by <a href=\"https://github.com/vincentarelbundock/Rdatasets\" rel=\"noopener noreferrer\" target=\"_blank\">Rdatasets</a>. Credit both when you use them.</span>\n<span class=\"paragraph\">Bill James's famous idea: a team's <strong>wins</strong> are predicted almost scarily well by just two numbers - runs scored and runs allowed. Let's check on 20+ years of MLB seasons.</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"baseball-starter-pythagorean-expectation\">Baseball starter: Pythagorean expectation</h1>\n<span class=\"paragraph\"><strong>Data:</strong> the <a href=\"https://www.seanlahman.com/baseball-archive/statistics/\" rel=\"noopener noreferrer\" target=\"_blank\">Lahman Baseball Database</a> (Sean Lahman), mirrored as CSV by <a href=\"https://github.com/vincentarelbundock/Rdatasets\" rel=\"noopener noreferrer\" target=\"_blank\">Rdatasets</a>. Credit both when you use them.</span>\n<span class=\"paragraph\">Bill James's famous idea: a team's <strong>wins</strong> are predicted almost scarily well by just two numbers - runs scored and runs allowed. Let's check on 20+ years of MLB seasons.</span>\n<span class=\"paragraph\"><strong>Where you have seen this:</strong> this is the <em>Moneyball</em> idea - the 2002 Oakland A's, the Michael Lewis book, the Brad Pitt film. A low-budget team winning by trusting numbers over gut feel.</span></span>"
           }
         }
       ],
@@ -66,12 +66,12 @@
     },
     {
       "id": "lEQa",
-      "code_hash": "de6d27bbf3d8b385ec13679bbbfce39d",
+      "code_hash": "085bbe119c93906fbada79bcf845df1f",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">On average a team's Pythagorean record is off by only <strong>3.3 wins</strong> over a season.</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Find the biggest <strong>overachievers</strong> (won way more than their runs suggest). What did they do? (Look at one-run games.)</li>\n<li>The exponent doesn't have to be 2: which exponent minimizes the error?</li>\n<li>Same idea, other sports: does it work on the NFL or NHL starters in this repo?</li>\n</ul></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">On average a team's Pythagorean record is off by only <strong>3.3 wins</strong> over a season.</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Find the biggest <strong>overachievers</strong> (won way more than their runs suggest). What did they do? (Look at one-run games.)</li>\n<li>The exponent doesn't have to be 2: which exponent minimizes the error?</li>\n<li>Same idea, other sports: does it work on the NFL or NHL starters in this repo?</li>\n</ul>\n<span class=\"paragraph\"><strong>What good looks like:</strong> you can explain your chart in one plain sentence, and name one thing it does <em>not</em> tell you.</span></span>"
           }
         }
       ],

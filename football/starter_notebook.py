@@ -21,6 +21,8 @@ def _(mo):
         **Data:** [nflverse](https://github.com/nflverse/nflverse-data) - free NFL data maintained by the community. Credit nflverse when you use it.
 
         **Elo** is the classic rating system from chess: every team has a number, winners take points from losers, and bigger upsets move more points. From just final scores we can rank all 32 teams.
+
+        **Where you have seen this:** NFL teams go for it on fourth down far more than they used to - models like the New York Times 4th Down Bot showed the old punt-first habit was giving away wins.
         """
     )
     return
@@ -76,6 +78,8 @@ def _(mo, ratings):
         - Turn it into a **predictor**: who wins each game this week, and how often is Elo right over a season?
         - Make blowouts count more: scale `K` by the margin of victory.
         - Estimate the true **home-field edge**: which `HOME_EDGE` makes Elo predict best?
+
+        **What good looks like:** you can explain your chart in one plain sentence, and name one thing it does *not* tell you.
         """
     )
     return

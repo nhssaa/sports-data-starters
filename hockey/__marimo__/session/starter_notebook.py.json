@@ -20,12 +20,12 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "a85c54d162000d21ca019eacae206136",
+      "code_hash": "e29b4bf3fa31c4f4c570696148447972",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"hockey-starter-do-goals-predict-points\">Hockey starter: do goals predict points?</h1>\n<span class=\"paragraph\"><strong>Data:</strong> the NHL's public web API (<code>api-web.nhle.com</code>) - live standings, no key needed. Credit the NHL when you use it.</span>\n<span class=\"paragraph\">Standings give every team's points and goal differential. A first modeling question: <strong>how much of winning is just out-scoring opponents?</strong></span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"hockey-starter-do-goals-predict-points\">Hockey starter: do goals predict points?</h1>\n<span class=\"paragraph\"><strong>Data:</strong> the NHL's public web API (<code>api-web.nhle.com</code>) - live standings, no key needed. Credit the NHL when you use it.</span>\n<span class=\"paragraph\">Standings give every team's points and goal differential. A first modeling question: <strong>how much of winning is just out-scoring opponents?</strong></span>\n<span class=\"paragraph\"><strong>Where you have seen this:</strong> sites like MoneyPuck publish live win probability for every NHL game, built from exactly this kind of data.</span></span>"
           }
         }
       ],
@@ -66,12 +66,12 @@
     },
     {
       "id": "lEQa",
-      "code_hash": "3041091ca968a1ca839d8bcadc9097e7",
+      "code_hash": "f55af463ae9d8e9f23f302476b2f9396",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Top of the league right now: <strong>WPG</strong> (7 pts in 4 games).</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Who are this season's <strong>overachievers</strong> - points well above what their goals predict? Do they win tight games or lose blowouts?</li>\n<li>Go deeper with <a href=\"http://moneypuck.com/data.htm\" rel=\"noopener noreferrer\" target=\"_blank\">MoneyPuck's free team data</a>: shots, expected goals, and more.</li>\n<li>Is home-ice advantage real? The API also serves every game's score.</li>\n</ul></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Top of the league right now: <strong>WPG</strong> (7 pts in 4 games).</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Who are this season's <strong>overachievers</strong> - points well above what their goals predict? Do they win tight games or lose blowouts?</li>\n<li>Go deeper with <a href=\"http://moneypuck.com/data.htm\" rel=\"noopener noreferrer\" target=\"_blank\">MoneyPuck's free team data</a>: shots, expected goals, and more.</li>\n<li>Is home-ice advantage real? The API also serves every game's score.</li>\n</ul>\n<span class=\"paragraph\"><strong>What good looks like:</strong> you can explain your chart in one plain sentence, and name one thing it does <em>not</em> tell you.</span></span>"
           }
         }
       ],

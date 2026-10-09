@@ -20,12 +20,12 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "561ea99b6331770cbbd1f1e7dbaea256",
+      "code_hash": "d48c7c30717ff8c6fd41630738a51e11",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"cricket-starter-bat-first-or-chase\">Cricket starter: bat first or chase?</h1>\n<span class=\"paragraph\"><strong>Data:</strong> <a href=\"https://cricsheet.org/\" rel=\"noopener noreferrer\" target=\"_blank\">Cricsheet</a> - free ball-by-ball data for T20, ODI, and Test matches. Credit Cricsheet when you use it.</span>\n<span class=\"paragraph\">The coin toss decides who bats first - but should you <em>want</em> to? Let's answer it with every Women's Premier League T20 ever played (about 370 KB of data; the men's IPL is one folder up on Cricsheet).</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"cricket-starter-bat-first-or-chase\">Cricket starter: bat first or chase?</h1>\n<span class=\"paragraph\"><strong>Data:</strong> <a href=\"https://cricsheet.org/\" rel=\"noopener noreferrer\" target=\"_blank\">Cricsheet</a> - free ball-by-ball data for T20, ODI, and Test matches. Credit Cricsheet when you use it.</span>\n<span class=\"paragraph\">The coin toss decides who bats first - but should you <em>want</em> to? Let's answer it with every Women's Premier League T20 ever played (about 370 KB of data; the men's IPL is one folder up on Cricsheet).</span>\n<span class=\"paragraph\"><strong>Where you have seen this:</strong> every rain-hit international uses the Duckworth-Lewis-Stern formula to reset the target, and pro T20 teams employ analysts to answer 'bat first or chase?' for each venue.</span></span>"
           }
         }
       ],
@@ -58,7 +58,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='1bba94f4-e0ce-bcba-cf25-2138fe4b77a3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;won_by&#92;&quot;:&#92;&quot;chasing&#92;&quot;,&#92;&quot;proportion&#92;&quot;:0.598},{&#92;&quot;won_by&#92;&quot;:&#92;&quot;batting first&#92;&quot;,&#92;&quot;proportion&#92;&quot;:0.402}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;proportion&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;won_by&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='c5be9f09-f6de-a96f-30b2-2233fe395423'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;won_by&#92;&quot;:&#92;&quot;chasing&#92;&quot;,&#92;&quot;proportion&#92;&quot;:0.598},{&#92;&quot;won_by&#92;&quot;:&#92;&quot;batting first&#92;&quot;,&#92;&quot;proportion&#92;&quot;:0.402}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;proportion&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;won_by&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
@@ -66,12 +66,12 @@
     },
     {
       "id": "lEQa",
-      "code_hash": "792ff4de341cd2ba19473e424f145014",
+      "code_hash": "794d08aa0ea505267060591f04f05075",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Teams <strong>chasing won 60%</strong> of these matches. So: win the toss, bowl first?</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Is the chase advantage bigger in some <strong>venues</strong>? <code>info[\"venue\"]</code> is in every match.</li>\n<li>Ball by ball: every delivery is in <code>innings</code> - who are the top run-scorers and wicket-takers?</li>\n<li>The real question is <em>par score</em>: given the first-innings total, how often does the chase succeed? (That's the road to Duckworth-Lewis.)</li>\n</ul></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Teams <strong>chasing won 60%</strong> of these matches. So: win the toss, bowl first?</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Is the chase advantage bigger in some <strong>venues</strong>? <code>info[\"venue\"]</code> is in every match.</li>\n<li>Ball by ball: every delivery is in <code>innings</code> - who are the top run-scorers and wicket-takers?</li>\n<li>The real question is <em>par score</em>: given the first-innings total, how often does the chase succeed? (That's the road to Duckworth-Lewis.)</li>\n</ul>\n<span class=\"paragraph\"><strong>What good looks like:</strong> you can explain your chart in one plain sentence, and name one thing it does <em>not</em> tell you.</span></span>"
           }
         }
       ],

@@ -21,6 +21,8 @@ def _(mo):
 
         Event data records *every action in a match* - who did what, where, and what happened next. Here we load the **2018 FIFA World Cup final** and count shots and goals by player.
 
+        **Where you have seen this:** broadcasters like the BBC show xG after big matches, and clubs like Brentford famously built their whole recruitment on numbers like these.
+
         Want the full guided soccer lesson? Start with our flagship: [xg-for-beginners](https://github.com/nhssaa/xg-for-beginners).
         """
     )
@@ -82,6 +84,8 @@ def _(mo):
         - Who had the best **conversion rate** (goals / shots)? Add a column and sort by it.
         - Loop over *every* match in the competition and build a golden-boot table for the whole World Cup.
         - Each shot has a `location` - draw a shot map. The [xg-for-beginners](https://github.com/nhssaa/xg-for-beginners) lesson shows how, then teaches you to turn shots into expected goals.
+
+        **What good looks like:** you can explain your chart in one plain sentence, and name one thing it does *not* tell you.
         """
     )
     return

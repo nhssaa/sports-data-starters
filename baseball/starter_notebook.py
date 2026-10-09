@@ -21,6 +21,8 @@ def _(mo):
         **Data:** the [Lahman Baseball Database](https://www.seanlahman.com/baseball-archive/statistics/) (Sean Lahman), mirrored as CSV by [Rdatasets](https://github.com/vincentarelbundock/Rdatasets). Credit both when you use them.
 
         Bill James's famous idea: a team's **wins** are predicted almost scarily well by just two numbers - runs scored and runs allowed. Let's check on 20+ years of MLB seasons.
+
+        **Where you have seen this:** this is the *Moneyball* idea - the 2002 Oakland A's, the Michael Lewis book, the Brad Pitt film. A low-budget team winning by trusting numbers over gut feel.
         """
     )
     return
@@ -63,6 +65,8 @@ def _(modern, mo):
         - Find the biggest **overachievers** (won way more than their runs suggest). What did they do? (Look at one-run games.)
         - The exponent doesn't have to be 2: which exponent minimizes the error?
         - Same idea, other sports: does it work on the NFL or NHL starters in this repo?
+
+        **What good looks like:** you can explain your chart in one plain sentence, and name one thing it does *not* tell you.
         """
     )
     return

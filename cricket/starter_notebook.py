@@ -21,6 +21,8 @@ def _(mo):
         **Data:** [Cricsheet](https://cricsheet.org/) - free ball-by-ball data for T20, ODI, and Test matches. Credit Cricsheet when you use it.
 
         The coin toss decides who bats first - but should you *want* to? Let's answer it with every Women's Premier League T20 ever played (about 370 KB of data; the men's IPL is one folder up on Cricsheet).
+
+        **Where you have seen this:** every rain-hit international uses the Duckworth-Lewis-Stern formula to reset the target, and pro T20 teams employ analysts to answer 'bat first or chase?' for each venue.
         """
     )
     return
@@ -74,6 +76,8 @@ def _(mo, results):
         - Is the chase advantage bigger in some **venues**? `info["venue"]` is in every match.
         - Ball by ball: every delivery is in `innings` - who are the top run-scorers and wicket-takers?
         - The real question is *par score*: given the first-innings total, how often does the chase succeed? (That's the road to Duckworth-Lewis.)
+
+        **What good looks like:** you can explain your chart in one plain sentence, and name one thing it does *not* tell you.
         """
     )
     return

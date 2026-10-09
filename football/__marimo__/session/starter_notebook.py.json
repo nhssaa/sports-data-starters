@@ -20,12 +20,12 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "c29972b0be7d34e95a2a9a2d58926b33",
+      "code_hash": "478f56a9373fd40e4666722589f2465c",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"football-starter-build-nfl-power-ratings-from-final-scores\">Football starter: build NFL power ratings from final scores</h1>\n<span class=\"paragraph\"><strong>Data:</strong> <a href=\"https://github.com/nflverse/nflverse-data\" rel=\"noopener noreferrer\" target=\"_blank\">nflverse</a> - free NFL data maintained by the community. Credit nflverse when you use it.</span>\n<span class=\"paragraph\"><strong>Elo</strong> is the classic rating system from chess: every team has a number, winners take points from losers, and bigger upsets move more points. From just final scores we can rank all 32 teams.</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"football-starter-build-nfl-power-ratings-from-final-scores\">Football starter: build NFL power ratings from final scores</h1>\n<span class=\"paragraph\"><strong>Data:</strong> <a href=\"https://github.com/nflverse/nflverse-data\" rel=\"noopener noreferrer\" target=\"_blank\">nflverse</a> - free NFL data maintained by the community. Credit nflverse when you use it.</span>\n<span class=\"paragraph\"><strong>Elo</strong> is the classic rating system from chess: every team has a number, winners take points from losers, and bigger upsets move more points. From just final scores we can rank all 32 teams.</span>\n<span class=\"paragraph\"><strong>Where you have seen this:</strong> NFL teams go for it on fourth down far more than they used to - models like the New York Times 4th Down Bot showed the old punt-first habit was giving away wins.</span></span>"
           }
         }
       ],
@@ -79,12 +79,12 @@
     },
     {
       "id": "PKri",
-      "code_hash": "82ea22ed63e5debf2b8bcf7a2963364d",
+      "code_hash": "a786701929ff523a4c9abbe2cd59e01b",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Right now the top-rated team is <strong>BUF</strong> (1669) and the lowest is <strong>TEN</strong> (1308).</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Turn it into a <strong>predictor</strong>: who wins each game this week, and how often is Elo right over a season?</li>\n<li>Make blowouts count more: scale <code>K</code> by the margin of victory.</li>\n<li>Estimate the true <strong>home-field edge</strong>: which <code>HOME_EDGE</code> makes Elo predict best?</li>\n</ul></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Right now the top-rated team is <strong>BUF</strong> (1669) and the lowest is <strong>TEN</strong> (1308).</span>\n<h2 id=\"your-turn\">Your turn</h2>\n<ul>\n<li>Turn it into a <strong>predictor</strong>: who wins each game this week, and how often is Elo right over a season?</li>\n<li>Make blowouts count more: scale <code>K</code> by the margin of victory.</li>\n<li>Estimate the true <strong>home-field edge</strong>: which <code>HOME_EDGE</code> makes Elo predict best?</li>\n</ul>\n<span class=\"paragraph\"><strong>What good looks like:</strong> you can explain your chart in one plain sentence, and name one thing it does <em>not</em> tell you.</span></span>"
           }
         }
       ],
